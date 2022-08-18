@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "387504223197",
+    "project_id": "bits-news",
+    "storage_bucket": "bits-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387504223197:android:22b35d146295113548fc34",
+        "android_client_info": {
+          "package_name": "com.example.android.bitsnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387504223197-k39fh6tnd887hdvh7g0krfdju3s1s0pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh4ZlQ8_RAmj2_jO_ZAs6D4uT3QOFfBVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387504223197-k39fh6tnd887hdvh7g0krfdju3s1s0pu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387504223197:android:f3b175cd2cc1e03248fc34",
+        "android_client_info": {
+          "package_name": "com.example.bits_news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387504223197-1vo4r3islj80utjagdmtl9biakm0pk69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bits_news",
+            "certificate_hash": "7a777eabf108baa5289f2b3df4cd993e68ec0be6"
+          }
+        },
+        {
+          "client_id": "387504223197-ftumi62hhs58auh43eu861s46l89bvsk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bits_news",
+            "certificate_hash": "23bc0cc4868b0666a212c6ad9441517ca9e801fe"
+          }
+        },
+        {
+          "client_id": "387504223197-s8car9tvum79efrkmtpjlhtoubr2n469.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bits_news",
+            "certificate_hash": "07ae355935291868dd0f595cdb58d4018c18a3e1"
+          }
+        },
+        {
+          "client_id": "387504223197-k39fh6tnd887hdvh7g0krfdju3s1s0pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh4ZlQ8_RAmj2_jO_ZAs6D4uT3QOFfBVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387504223197-k39fh6tnd887hdvh7g0krfdju3s1s0pu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

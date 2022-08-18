@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeveloperActivity">
+    <include
+        android:id="@+id/developer_toolbar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/developer_profile_image"
+        android:layout_width="150dp"
+
+        android:layout_height="150dp"
+        android:src="@drawable/profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/developer_toolbar" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/developer_profile_image2"
+        android:layout_width="150dp"
+
+        android:layout_height="150dp"
+        android:src="@drawable/profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/developer_profile_image" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/developer_profile_image3"
+        android:layout_width="150dp"
+
+        android:layout_height="150dp"
+        android:src="@drawable/profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/developer_profile_image2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aaryan Agarwal"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/developer_profile_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/developer_profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/developer_toolbar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Akhil Rajeev"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/developer_profile_image2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/developer_profile_image2"
+        app:layout_constraintTop_toBottomOf="@+id/developer_profile_image" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dhruv Dixit"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/developer_profile_image3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/developer_profile_image3"
+        app:layout_constraintTop_toBottomOf="@+id/developer_profile_image2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
